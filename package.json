@@ -1,0 +1,23 @@
+{
+  "name": "@khumo/build-info",
+  "version": "1.0.0",
+  "description": "Angular CLI builder that patches build info",
+  "builders": "builders.json",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "postbuild": "copyfiles --up 1 ./src/**/*.json ./dist",
+    "build:watch": "tsc-watch --onSuccess 'npm run postbuild'"
+  },
+  "keywords": [],
+  "author": "Khumo Mogorosi",
+  "license": "ISC",
+  "devDependencies": {
+    "@angular-devkit/architect": "^0.1501.6",
+    "@angular-devkit/core": "^15.1.6",
+    "@types/node": "^18.13.0",
+    "copyfiles": "^2.4.1",
+    "rimraf": "^4.1.2",
+    "tsc-watch": "^6.0.0",
+    "typescript": "^4.9.5"
+  }
+}
