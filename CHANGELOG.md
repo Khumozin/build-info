@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/khumozin/build-info/compare/v1.0.0...v1.0.1) (2023-02-27)
+
+
+### Bug Fixes
+
+* **package.json:** change lib name ([10c3017](https://github.com/khumozin/build-info/commit/10c301764852946863cea57290237a0a2e882d56))
+
 # 1.0.0 (2023-02-27)
 
 
