@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/khumozin/build-info/compare/v1.0.2...v1.0.3) (2023-02-27)
+
+
+### Bug Fixes
+
+* **.npmignore:** add .npmignore file ([b33c7c2](https://github.com/khumozin/build-info/commit/b33c7c203637618c92c0474d17533343f8a6b7e3))
+
 ## [1.0.2](https://github.com/khumozin/build-info/compare/v1.0.1...v1.0.2) (2023-02-27)
 
 

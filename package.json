@@ -1,6 +1,6 @@
 {
   "name": "khumo-build-info",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Angular CLI builder that patches build info",
   "builders": "builders.json",
   "scripts": {
