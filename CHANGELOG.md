@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/khumozin/build-info/compare/v1.0.1...v1.0.2) (2023-02-27)
+
+
+### Bug Fixes
+
+* **index.ts:** fix grammar ([d850773](https://github.com/khumozin/build-info/commit/d8507736a08043b40b4b71acbbcf7990e96b3c49))
+
 ## [1.0.1](https://github.com/khumozin/build-info/compare/v1.0.0...v1.0.1) (2023-02-27)
 
 
