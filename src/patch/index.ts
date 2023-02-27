@@ -10,7 +10,7 @@ interface BuildInfoOptions extends JsonObject {
 export default createBuilder(
   async ({ file2patch, target2run }: BuildInfoOptions, ctx) => {
     // builder logic
-    ctx.logger.info("Patching has been started...");
+    ctx.logger.info("Patching has started...");
     try {
       const fileToPatch = `${getSystemPath(
         normalize(ctx.workspaceRoot)
@@ -33,7 +33,7 @@ export default createBuilder(
         )
       );
 
-      ctx.logger.info("Patching has been completed...");
+      ctx.logger.info("Patching has completed...");
 
       if (!target2run) {
         return {
